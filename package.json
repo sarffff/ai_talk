@@ -1,0 +1,35 @@
+{
+  "name": "ai-roleplay-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.37.1",
+    "axios": "^1.7.4",
+    "framer-motion": "^11.2.12",
+    "highlight.js": "^11.11.1",
+    "lucide-react": "^0.422.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^6.23.1",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1",
+    "shadcn-ui": "latest",
+    "tailwindcss": "^3.4.14",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.2",
+    "postcss": "^8.4.31",
+    "vite": "^5.4.0"
+  }
+}

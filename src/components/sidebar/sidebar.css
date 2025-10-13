@@ -1,0 +1,8 @@
+/* SideBar.css 文件内容 */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* 适用于Firefox */
+}
