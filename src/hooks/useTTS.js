@@ -1,9 +1,8 @@
-// useTTS.js
 import { useRef, useState, useEffect } from 'react';
 
 export const useTTS = () => {
   const audioRef = useRef(null);
-  const [isSpeaking, setIsSpeaking] = useState(false);
+  // const [isSpeaking, setIsSpeaking] = useState(false);
 
   const playBase64 = (base64Data) => {
     try {
@@ -53,5 +52,5 @@ export const useTTS = () => {
     };
   }, []);
 
-  return { isSpeaking, playBase64, stop };
+  return { playBase64, stop };
 };

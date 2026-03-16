@@ -4,7 +4,7 @@ import { useRecorder } from '../hooks/useRecorder';
 import { useTTS } from '../hooks/useTTS';
 
 const AudioRecorder = ({ selectedRole, chatId }) => {
-  const { isSpeaking, playBase64, stop: stopTTS } = useTTS();
+  const { playBase64, stop: stopTTS } = useTTS();
   const { isRecording, volume, startRecording, stopRecording } = useRecorder({
     chatId,
     selectedRole,

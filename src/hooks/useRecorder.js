@@ -71,6 +71,7 @@ export const useRecorder = ({ chatId, selectedRole, onTranscript, onTTS }) => {
         }
       };
 
+      // 静音处理
       const silentGain = audioCtxRef.current.createGain();
       silentGain.gain.value = 0;
       processor.connect(silentGain);
