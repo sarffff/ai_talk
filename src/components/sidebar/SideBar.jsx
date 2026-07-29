@@ -24,7 +24,7 @@ const Sidebar = () => {
   }
 
 
-  return (
+  return ( 
     <div className="w-64 bg-gray-800 text-white h-screen flex flex-col p-4">
       {/* 新建会话按钮 */}
       <div className="flex-none">
